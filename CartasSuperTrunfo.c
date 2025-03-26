@@ -27,7 +27,7 @@ int main() {
     
     // Cadastro das Cartas:
     // Cadastro da Primeira Carta:
-    printf("Preencha os dados da 1a cidade \n");
+    printf("Preencha os dados da primeira cidade \n");
     printf("Informe a população: \n");
     scanf("%lu", &populacao1);
 
@@ -49,7 +49,7 @@ int main() {
     printf("\n");
 
     // Cadastro da Segunda Carta:
-    printf("Preencha os dados da 2a cidade \n");
+    printf("Preencha os dados da segunda cidade \n");
     printf("Informe a população: \n");
     scanf("%lu", &populacao2);
 
@@ -76,20 +76,20 @@ int main() {
     // Exibição da primeira carta:
     printf("1° Cidade \n");
     printf("População: %lu \n", populacao1);
-    printf("Área: %f \n", area1);
-    printf("Densidade Populacional: %f \n", densidadePopulacional1);
-    printf("PIB: %f \n", pib1);
-    printf("PIB per Capita: %f \n", pibPerCapita1);
+    printf("Área: %.2f km² \n", area1);
+    printf("Densidade Populacional: %.2f hab/km² \n", densidadePopulacional1);
+    printf("PIB: R$ %f \n", pib1);
+    printf("PIB per Capita: R$ %f \n", pibPerCapita1);
     printf("Pontos Turísticos: %d \n", pontosTuristicos1);
     printf("\n");
 
     // Exibição da segunda carta:
     printf("2° Cidade \n");
     printf("População: %lu \n", populacao2);
-    printf("Área: %f \n", area2);
-    printf("Densidade Populacional: %f \n", densidadePopulacional2);
-    printf("PIB: %f \n", pib2);
-    printf("PIB per Capita: %f \n", pibPerCapita2);
+    printf("Área: %.2f km² \n", area2);
+    printf("Densidade Populacional: %.2f hab/km² \n", densidadePopulacional2);
+    printf("PIB: R$ %f \n", pib2);
+    printf("PIB per Capita: R$ %f \n", pibPerCapita2);
     printf("Pontos Turísticos: %d \n", pontosTuristicos2);
     printf("\n");
 
